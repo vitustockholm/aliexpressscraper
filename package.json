@@ -4,7 +4,9 @@
   "description": "Get Aliexpress product details as a json reponse including feedbacks, variants, description, images, etc.,",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon index.js",
+    "start": " "
   },
   "keywords": [
     "aliexpress",
@@ -31,5 +33,8 @@
     "faker": "^5.5.3",
     "node-fetch": "^2.6.1",
     "puppeteer": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
